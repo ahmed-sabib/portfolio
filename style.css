@@ -1,0 +1,222 @@
+/* Sabib Ahmed Portfolio - Style matching mostafij-rahman.github.io */
+* {
+    color: inherit;
+}
+html {
+    color: #000;
+}
+.uk-label {
+    color: black;
+    text-transform: none;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 0px 3px;
+}
+/* Social icons styling */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 8px;
+    border-radius: 50%;
+    color: #fff !important;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+    transition: transform .2s, background .2s;
+}
+.social-icon i {
+    color: #fff !important;
+    font-size: 24px;
+    line-height: 60px;
+}
+.social-icon:hover {
+    transform: scale(1.1);
+    background: #333;
+}
+.uk-text-bold {
+    font-weight: 600;
+}
+.uk-h2, h2 {
+    font-size: 1.5rem;
+}
+.uk-text-lead {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: #333;
+}
+.uk-text-lead {
+    color: #800000;
+}
+
+/* Added background color for the top header */
+.uk-navbar-container {
+    background-color: #BF5701 !important; /* Burnt Orange - UT Austin color */
+}
+
+/* Card styling */
+.uk-card-default {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.uk-card-primary {
+    border-radius: 8px;
+}
+
+/* Publication tags */
+.uk-label {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* List item spacing */
+.uk-list > li {
+    margin-bottom: 25px;
+}
+
+/* Links styling */
+a {
+    color: #007fe6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #BF5701;
+}
+
+/* Section dividers */
+hr.uk-margin-small {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Profile image styling */
+.uk-border-circle {
+    border: 4px solid #BF5701;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid spacing */
+.uk-grid-small > * {
+    padding-left: 15px;
+}
+
+/* Navigation links */
+.uk-navbar-nav > li > a {
+    color: white !important;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.uk-navbar-nav > li > a:hover {
+    opacity: 0.8;
+}
+
+/* Logo styling */
+.uk-logo {
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+/* Status badges */
+span[style*="background-color: lightgreen"] {
+    font-weight: 500;
+}
+
+span[style*="background-color: #17a2b8"] {
+    font-weight: 500;
+}
+
+/* Content container */
+.uk-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Research/Publication item hover effect */
+.uk-list > li:hover {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .social-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .social-icon i {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .uk-h2, h2 {
+        font-size: 1.3rem;
+    }
+    
+    .uk-text-lead {
+        font-size: 0.95rem;
+    }
+}
+
+/* Footer styling */
+.uk-section-secondary {
+    padding: 20px 0;
+}
+
+.uk-section-secondary p {
+    color: white !important;
+    margin: 0;
+}
+
+/* Card body padding */
+.uk-card-body {
+    padding: 25px 30px;
+}
+
+/* Icons in header */
+.uk-flex-center a i {
+    font-size: 1.2rem;
+    color: #007fe6;
+    transition: color 0.3s ease;
+}
+
+.uk-flex-center a i:hover {
+    color: #BF5701;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile menu (offcanvas) styling */
+.uk-offcanvas-bar {
+    background-color: #BF5701;
+}
+
+.uk-nav-primary > li > a {
+    color: white !important;
+}
+
+/* Print styles */
+@media print {
+    .uk-navbar-container,
+    .uk-section-secondary {
+        background-color: #BF5701 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
